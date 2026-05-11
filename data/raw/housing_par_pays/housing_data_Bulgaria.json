@@ -1,0 +1,313 @@
+{
+  "Affordability": {
+    "Housing Allowances": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Social housing assistance",
+          "true_items": [
+            "Income-tested?",
+            "Social housing",
+            "Specific demo group"
+          ],
+          "false_items": [
+            "Private rental",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants"
+          }
+        },
+        {
+          "title": "Heating allowance",
+          "true_items": [
+            "Income-tested?",
+            "Employed"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Unemployed",
+            "Specific demo group",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "Lump sum"
+          }
+        }
+      ]
+    },
+    "Tax Relief": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Discount/credit",
+          "true_items": [
+            "Main/only residence"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Property tax",
+            "Access": "Homeowners",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "50 to 75%"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence",
+            "Demo group/location/event"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent"
+          ],
+          "details": {
+            "Tax targeted": "Mortgage interest",
+            "Access": "Homeowners",
+            "Mortgage": "1.0",
+            "Reduction/ amount": "BGN 100,000"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence",
+            "Demo group/location/event"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Homeowners, tenants",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "BGN 450/child"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Demo group/location/event"
+          ],
+          "false_items": [
+            "Main/only residence",
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Homeowners",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "BGN 2000/year"
+          }
+        }
+      ]
+    },
+    "Rent Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Non-renewable leases available?",
+            "Automatic renewal/conversion",
+            "Landlord termination: personal use",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "false_items": [
+            "Exceptions to increase amount for renovations",
+            "Max deposit capped?",
+            "Landlord termination: major renovations",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "details": {
+            "Subsequent increases regulated?": "Depends on lease",
+            "Regulated how?": "Depends on lease",
+            "Minimum lease duration": "Long-term max 10 years or fixed-term non renewable",
+            "Open-ended leases available?": "Yes, converted",
+            "Tenant termination for any reason": "Only long-term",
+            "Tenant notice period": "1 month",
+            "Landlord notice period": "1 month"
+          }
+        }
+      ]
+    },
+    "Mortgage Market": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [],
+          "false_items": [],
+          "details": {
+            "% of lending with variable interest rate": "99.8",
+            "Avg rate on new loans %": "3.06",
+            "Avg mortgage amount": "BGN 150,000",
+            "Outstanding loans to disposable income ratio %": "13.6",
+            "Typical LTV ratio %": "80",
+            "Typical/avg maturity years": "20-25"
+          }
+        }
+      ]
+    },
+    "Social Housing": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Income/assets",
+            "Residence (Partly)",
+            "No legal/lease precedents",
+            "Priority groups/points"
+          ],
+          "false_items": [
+            "EEA/EU citizenship",
+            "No other supports",
+            "Benefits/ proven need",
+            "Other"
+          ],
+          "details": {
+            "Stock %": "0.008",
+            "Management": "State, municipalities, non-profit housing providers",
+            "Eligibility reassessed?": "Unclear",
+            "If changed at reassessment": "Unclear"
+          }
+        }
+      ]
+    }
+  },
+  "General Housing System": {
+    "House Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 98.85,
+        "2020": 135.54,
+        "2025": 237.55
+      }
+    },
+    "Rent Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 100,
+        "2020": 109.61,
+        "2024": 135.55
+      }
+    },
+    "Housing Completions": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 5201
+      }
+    },
+    "Housing Stock": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 4304000
+      }
+    },
+    "Population": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 6445481
+      }
+    },
+    "Households": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 2854100
+      }
+    },
+    "Public Spending": {
+      "type": "bar_chart",
+      "content": {
+        "housing development": 0.4,
+        "housing as social protection": 0.1,
+        "rent subsidies/housing allowances": "N/A",
+        "social housing": "N/A",
+        "homebuying subsidies": "N/A",
+        "renovation subsidies": "N/A"
+      }
+    },
+    "Short-term Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Short-term letting regulated?",
+            "Mandatory registration",
+            "Mandatory registration as business (Partly)"
+          ],
+          "false_items": [
+            "Permit or licence",
+            "Consent from condo",
+            "Appropriate zoning",
+            "Unit caps or quotas",
+            "Rental time limits",
+            "Vacancy tax or tax surcharge",
+            "Vacancy fines",
+            "Incentives to let vacant housing"
+          ],
+          "details": {}
+        }
+      ]
+    }
+  },
+  "Exclusion": {
+    "Homelessness": {
+      "type": "key_value",
+      "content": {
+        "Latest count": "N/A",
+        "ETHOS covered": "N/A",
+        "Method": "N/A",
+        "Interval": "N/A",
+        "Homelessness strategy?": "N/A"
+      }
+    },
+    "Age of Leaving Home": {
+      "type": "horizontal_bar",
+      "content": {
+        "Total": 28.2,
+        "Male": 29.8,
+        "Female": 26.4
+      }
+    },
+    "Living with Parents": {
+      "type": "hero_stat",
+      "content": 31.9
+    }
+  }
+}

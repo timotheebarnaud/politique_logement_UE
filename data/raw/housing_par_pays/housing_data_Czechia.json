@@ -1,0 +1,442 @@
+{
+  "Affordability": {
+    "Housing Allowances": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Prispevek na bydleni",
+          "true_items": [
+            "Income-tested?",
+            "Housing costs > threshold"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "Other benefits",
+            "No benefits",
+            "Employed",
+            "Unemployed",
+            "Specific demo group",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "costs, income, location, people"
+          }
+        },
+        {
+          "title": "Doplatek na bydleni",
+          "true_items": [
+            "Income-tested?",
+            "Other benefits",
+            "Housing costs > threshold"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "No benefits",
+            "Employed",
+            "Unemployed",
+            "Specific demo group",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "costs, income"
+          }
+        }
+      ]
+    },
+    "Tax Relief": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Mortgage interest",
+            "Access": "Homeowners",
+            "Mortgage": "1.0",
+            "Reduction/ amount": "CZK 150,000/year"
+          }
+        },
+        {
+          "title": "Deduction, exemption",
+          "true_items": [
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Main/only residence",
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Landlords",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "CZK 50,000/year exempt; 30% or CZK 600,000 costs deductible"
+          }
+        },
+        {
+          "title": "Exemption",
+          "true_items": [
+            "Main/only residence",
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Rent VAT",
+            "Access": "Tenants",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "Full exemption"
+          }
+        },
+        {
+          "title": "Exemption",
+          "true_items": [
+            "Main/only residence",
+            "New build (Partly)",
+            "Capped rent (Partly)"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Property tax",
+            "Access": "Homeowners, non-profit housing providers",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "Full exemption"
+          }
+        }
+      ]
+    },
+    "Rent Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Fixed-term lease",
+          "true_items": [
+            "Max deposit capped?",
+            "Tenant termination for any reason",
+            "Landlord termination: personal use",
+            "Landlord termination: major renovations",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "false_items": [
+            "Open-ended leases available?",
+            "Non-renewable leases available?",
+            "Automatic renewal/conversion",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "details": {
+            "Subsequent increases regulated?": "Depends on lease",
+            "Regulated how?": "Depends on lease",
+            "Exceptions to increase amount for renovations": "Depends on lease",
+            "Minimum lease duration": "Free",
+            "Tenant notice period": "3 months",
+            "Landlord notice period": "Varies"
+          }
+        },
+        {
+          "title": "Controlled rent",
+          "true_items": [
+            "Subsequent increases regulated?",
+            "Exceptions to increase amount for renovations",
+            "Non-renewable leases available?",
+            "Max deposit capped?",
+            "Landlord termination: personal use",
+            "Landlord termination: major renovations",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "false_items": [
+            "Automatic renewal/conversion",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "details": {
+            "Regulated how?": "Time limit, % limit, market rate",
+            "Minimum lease duration": "Open-ended",
+            "Open-ended leases available?": "Yes, from start",
+            "Tenant termination for any reason": "Depends on lease",
+            "Tenant notice period": "3 months",
+            "Landlord notice period": "Varies"
+          }
+        }
+      ]
+    },
+    "Mortgage Market": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [],
+          "false_items": [],
+          "details": {
+            "% of lending with variable interest rate": "6.8",
+            "Avg rate on new loans %": "5.88",
+            "Avg mortgage amount": "71745",
+            "Outstanding loans to disposable income ratio %": "39.2",
+            "Typical LTV ratio %": "80",
+            "Typical/avg maturity years": "25-30"
+          }
+        }
+      ]
+    },
+    "Construction Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Grant for low-energy house",
+          "true_items": [
+            "Energy/sustainability"
+          ],
+          "false_items": [
+            "Max size",
+            "Location",
+            "Income threshold",
+            "Min units/sqm",
+            "Capped rent/price"
+          ],
+          "details": {
+            "Access": "Homeowners",
+            "Calculation method: % of costs": "0.0",
+            "Calculation method: lump sum": "1.0",
+            "Max sum": "CZK 400,000"
+          }
+        },
+        {
+          "title": "Loan, grant for social/affordable housing",
+          "true_items": [
+            "Max size",
+            "Capped rent/price"
+          ],
+          "false_items": [
+            "Location",
+            "Income threshold",
+            "Min units/sqm",
+            "Energy/sustainability"
+          ],
+          "details": {
+            "Access": "Developers, non-profit housing providers",
+            "Calculation method: % of costs": "1.0",
+            "Calculation method: lump sum": "1.0",
+            "Max %": "90% loan, 40% grant",
+            "Max sum": "CZK 250m",
+            "Interest": "Varies"
+          }
+        }
+      ]
+    },
+    "Homebuying Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Low-consumption houses subsidy",
+          "true_items": [
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income",
+            "No sale/transfer"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "new, sustainable house",
+            "Capped at": "CZK 400,000"
+          }
+        },
+        {
+          "title": "Homebuying savings subsidy",
+          "true_items": [
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income",
+            "No sale/transfer",
+            "Main/only residence"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "min savings",
+            "Max % covered": "5% top-up",
+            "Capped at": "CZK 1,000/year"
+          }
+        },
+        {
+          "title": "Homebuying savings loan",
+          "true_items": [
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income",
+            "No sale/transfer",
+            "Main/only residence"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "min savings",
+            "Max % covered": "0.6",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "Varies"
+          }
+        }
+      ]
+    },
+    "Social Housing": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Income/assets",
+            "Residence",
+            "Benefits/ proven need",
+            "Priority groups/points (Partly)",
+            "Eligibility reassessed?"
+          ],
+          "false_items": [
+            "EEA/EU citizenship",
+            "No legal/lease precedents",
+            "No other supports",
+            "Other"
+          ],
+          "details": {
+            "Stock %": "0.036",
+            "Management": "Regions, municipalities, non-profit housing providers, private landlords",
+            "If changed at reassessment": "Unclear"
+          }
+        }
+      ]
+    }
+  },
+  "General Housing System": {
+    "House Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 98.3,
+        "2020": 149,
+        "2025": 235.6
+      }
+    },
+    "Rent Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 100,
+        "2020": 113.8,
+        "2024": 139.9
+      }
+    },
+    "Housing Completions": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 30267
+      }
+    },
+    "Housing Stock": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 4754000
+      }
+    },
+    "Population": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 10900555
+      }
+    },
+    "Households": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 4550100
+      }
+    },
+    "Public Spending": {
+      "type": "bar_chart",
+      "content": {
+        "housing development": 0.3,
+        "housing as social protection": 0.2,
+        "rent subsidies/housing allowances": 0.17,
+        "social housing": "N/A",
+        "homebuying subsidies": "N/A",
+        "renovation subsidies": 0.04
+      }
+    },
+    "Short-term Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Short-term letting regulated?",
+            "Permit or licence",
+            "Mandatory registration",
+            "Appropriate zoning",
+            "Mandatory registration as business"
+          ],
+          "false_items": [
+            "Consent from condo",
+            "Unit caps or quotas",
+            "Rental time limits",
+            "Vacancy tax or tax surcharge",
+            "Vacancy fines",
+            "Incentives to let vacant housing"
+          ],
+          "details": {}
+        }
+      ]
+    }
+  },
+  "Exclusion": {
+    "Homelessness": {
+      "type": "key_value",
+      "content": {
+        "Latest count": 100728,
+        "ETHOS covered": "1, 3, 5, 6",
+        "Method": "Local authorities",
+        "Interval": "4 months",
+        "Homelessness strategy?": "N/A"
+      }
+    },
+    "Age of Leaving Home": {
+      "type": "horizontal_bar",
+      "content": {
+        "Total": 25.8,
+        "Male": 27.1,
+        "Female": 24.4
+      }
+    },
+    "Living with Parents": {
+      "type": "hero_stat",
+      "content": 30.2
+    }
+  }
+}

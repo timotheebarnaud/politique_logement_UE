@@ -1,0 +1,500 @@
+{
+  "Affordability": {
+    "Housing Allowances": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Wohngeld",
+          "true_items": [
+            "Income-tested?",
+            "No benefits"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "Other benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "costs, income, location, people"
+          }
+        },
+        {
+          "title": "Arrears assistance",
+          "true_items": [
+            "Income-tested?",
+            "No benefits",
+            "Other"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "Other benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "Loan"
+          }
+        },
+        {
+          "title": "Minimum income top-up",
+          "true_items": [
+            "Income-tested?",
+            "Other benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Other (Partly)"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "No benefits",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "costs, other benefits"
+          }
+        }
+      ]
+    },
+    "Tax Relief": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Discount/credit",
+          "true_items": [
+            "Long-term rent to natural person",
+            "New build",
+            "Min residence period",
+            "Capped rent"
+          ],
+          "false_items": [
+            "Main/only residence",
+            "Income threshold",
+            "Energy/ sustainability renov",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Developers",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "5% off costs/year for 4 years; 3% depreciation"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence",
+            "Energy/ sustainability renov"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Homeowners",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "20% of costs up to €40,000, for 3 years"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence",
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Homeowners, tenants",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "20% of costs up to €1,200 (repairs) - €4,000 (services)"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Main/only residence",
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Landlords",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "100% of costs + mortgage interest"
+          }
+        },
+        {
+          "title": "Exemption",
+          "true_items": [
+            "Main/only residence",
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Rent VAT",
+            "Access": "tenants",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "Full exemption"
+          }
+        },
+        {
+          "title": "Added tax",
+          "true_items": [
+            "Min residence period"
+          ],
+          "false_items": [
+            "Main/only residence",
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Transfer tax",
+            "Access": "Homeowners (sellers)",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "Transfer tax = personal tax rate"
+          }
+        }
+      ]
+    },
+    "Rent Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Only in some areas",
+          "true_items": [
+            "Subsequent increases regulated?",
+            "Exceptions to increase amount for renovations",
+            "Non-renewable leases available?",
+            "Max deposit capped?",
+            "Landlord termination: personal use",
+            "Landlord termination: major renovations",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "false_items": [
+            "Automatic renewal/conversion",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "details": {
+            "Regulated how?": "Time limit, % limit, market rate",
+            "Minimum lease duration": "Open-ended or fixed-term non renewable",
+            "Open-ended leases available?": "Yes, from start",
+            "Tenant termination for any reason": "Only long-term",
+            "Tenant notice period": "3 months",
+            "Landlord notice period": "3-9 months"
+          }
+        }
+      ]
+    },
+    "Mortgage Market": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [],
+          "false_items": [],
+          "details": {
+            "% of lending with variable interest rate": "15.6",
+            "Avg rate on new loans %": "4.0",
+            "Avg mortgage amount": "344000",
+            "Outstanding loans to disposable income ratio %": "73.1",
+            "Typical LTV ratio %": "70-80",
+            "Typical/avg maturity years": "25"
+          }
+        }
+      ]
+    },
+    "Construction Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Loan for sustainable housing",
+          "true_items": [
+            "Income threshold (Partly)",
+            "Min units/sqm",
+            "Energy/sustainability"
+          ],
+          "false_items": [
+            "Max size",
+            "Location",
+            "Capped rent/price"
+          ],
+          "details": {
+            "Access": "Homeowners, developers, non-profit housing providers",
+            "Calculation method: % of costs": "0.0",
+            "Calculation method: lump sum": "1.0",
+            "Max sum": "€150,000/unit",
+            "Interest": "0.35 to 3.45%"
+          }
+        },
+        {
+          "title": "Grant for sustainable housing",
+          "true_items": [
+            "Min units/sqm",
+            "Capped rent/price",
+            "Energy/sustainability"
+          ],
+          "false_items": [
+            "Max size",
+            "Location",
+            "Income threshold"
+          ],
+          "details": {
+            "Access": "Non-profit housing providers",
+            "Calculation method: % of costs": "1.0",
+            "Calculation method: lump sum": "0.0",
+            "Max %": "0.1"
+          }
+        }
+      ]
+    },
+    "Homebuying Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "KFW homebuying loans",
+          "true_items": [
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income",
+            "No sale/transfer"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "insurance",
+            "Max % covered": "1",
+            "Capped at": "100000",
+            "Fixed/variable interest/fee": "Fixed then variable",
+            "Interest/fee rate": "3.48 to 3.81%"
+          }
+        },
+        {
+          "title": "KFW cooperative share subsidy",
+          "true_items": [
+            "No sale/transfer",
+            "Main/only residence"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income",
+            "Other"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Capped at": "€100,000 loan; €7,500 grant",
+            "Fixed/variable interest/fee": "Fixed then variable",
+            "Interest/fee rate": "0.01 to 0.61%"
+          }
+        },
+        {
+          "title": "KFW subsidies for families",
+          "true_items": [
+            "Income",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "No sale/transfer"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "parents, renovation",
+            "Capped at": "150000",
+            "Fixed/variable interest/fee": "Fixed then variable",
+            "Interest/fee rate": "0.34 to 3.43%"
+          }
+        },
+        {
+          "title": "Preferential channel for social housing providers",
+          "true_items": [
+            "No sale/transfer",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income",
+            "Main/only residence"
+          ],
+          "details": {
+            "Access": "Non-profit housing providers",
+            "Other requirements": "social housing",
+            "Capped at": "35000"
+          }
+        }
+      ]
+    },
+    "Social Housing": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Income/assets",
+            "EEA/EU citizenship (Partly)",
+            "Residence (Partly)",
+            "Other (Partly)",
+            "Eligibility reassessed?"
+          ],
+          "false_items": [
+            "No legal/lease precedents",
+            "No other supports",
+            "Benefits/ proven need",
+            "Priority groups/points"
+          ],
+          "details": {
+            "Stock %": "0.026",
+            "Management": "States, municipalities",
+            "If changed at reassessment": "Termination"
+          }
+        }
+      ]
+    }
+  },
+  "General Housing System": {
+    "House Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 97.8,
+        "2020": 133.8,
+        "2025": 150.9
+      }
+    },
+    "Rent Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 100,
+        "2020": 107.6,
+        "2024": 115.5
+      }
+    },
+    "Housing Completions": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 251937
+      }
+    },
+    "Housing Stock": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 43891000
+      }
+    },
+    "Population": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 83456045
+      }
+    },
+    "Households": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 41494100
+      }
+    },
+    "Public Spending": {
+      "type": "bar_chart",
+      "content": {
+        "housing development": 0.1,
+        "housing as social protection": 0.4,
+        "rent subsidies/housing allowances": 0.41,
+        "social housing": 0.07,
+        "homebuying subsidies": "N/A",
+        "renovation subsidies": 0.24
+      }
+    },
+    "Short-term Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Short-term letting regulated?",
+            "Permit or licence (Partly)",
+            "Mandatory registration",
+            "Consent from condo (Partly)",
+            "Appropriate zoning (Partly)",
+            "Unit caps or quotas (Partly)",
+            "Rental time limits (Partly)",
+            "Vacancy tax or tax surcharge (Partly)"
+          ],
+          "false_items": [
+            "Mandatory registration as business",
+            "Vacancy fines",
+            "Incentives to let vacant housing"
+          ],
+          "details": {}
+        }
+      ]
+    }
+  },
+  "Exclusion": {
+    "Homelessness": {
+      "type": "key_value",
+      "content": {
+        "Latest count": 531601,
+        "ETHOS covered": "1, 3, 6",
+        "Method": "Census, count",
+        "Interval": "1 night, 1 week",
+        "Homelessness strategy?": "Yes, dedicated"
+      }
+    },
+    "Age of Leaving Home": {
+      "type": "horizontal_bar",
+      "content": {
+        "Total": 23.9,
+        "Male": 24.6,
+        "Female": 23.1
+      }
+    },
+    "Living with Parents": {
+      "type": "hero_stat",
+      "content": 24
+    }
+  }
+}

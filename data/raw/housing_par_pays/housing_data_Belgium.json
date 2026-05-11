@@ -1,0 +1,518 @@
+{
+  "Affordability": {
+    "Housing Allowances": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Allocation de demenagement (Wallonia)",
+          "true_items": [
+            "Income-tested?",
+            "Private rental",
+            "Other"
+          ],
+          "false_items": [
+            "Social housing",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "Mixed"
+          }
+        },
+        {
+          "title": "Allocation d'atteinte logement (Wallonia)",
+          "true_items": [
+            "Income-tested?",
+            "Social housing",
+            "No benefits"
+          ],
+          "false_items": [
+            "Private rental",
+            "Other benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "Lump sum"
+          }
+        },
+        {
+          "title": "Allocation de rupture de bail (Wallonia)",
+          "true_items": [
+            "Income-tested?",
+            "Social housing"
+          ],
+          "false_items": [
+            "Private rental",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group",
+            "Other"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "Lump sum"
+          }
+        },
+        {
+          "title": "Allocation loyer (Brussels)",
+          "true_items": [
+            "Income-tested?",
+            "Private rental",
+            "Social housing",
+            "No benefits",
+            "Other"
+          ],
+          "false_items": [
+            "Other benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "people, income"
+          }
+        },
+        {
+          "title": "Allocation de relogement (Brussels)",
+          "true_items": [
+            "Income-tested?",
+            "Other"
+          ],
+          "false_items": [
+            "Private rental",
+            "Social housing",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "Mixed"
+          }
+        },
+        {
+          "title": "Huurpremie (Flanders)",
+          "true_items": [
+            "Income-tested?",
+            "Social housing",
+            "Other"
+          ],
+          "false_items": [
+            "Private rental",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "Location, income, people"
+          }
+        },
+        {
+          "title": "Huursubsidie (Flanders)",
+          "true_items": [
+            "Income-tested?",
+            "Private rental",
+            "Other"
+          ],
+          "false_items": [
+            "Social housing",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "Tenants",
+            "Calculation based on?": "location, people"
+          }
+        }
+      ]
+    },
+    "Rent Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Brussels",
+          "true_items": [
+            "Subsequent increases regulated?",
+            "Exceptions to increase amount for renovations",
+            "Non-renewable leases available?",
+            "Max deposit capped?",
+            "Tenant termination for any reason",
+            "Landlord termination: personal use",
+            "Landlord termination: major renovations",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "false_items": [
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "details": {
+            "Regulated how?": "Time limit, property value",
+            "Minimum lease duration": "Open-ended, long-term min 9 years, fixed-term max 3 years or fixed-term non-renewable",
+            "Open-ended leases available?": "Yes, from start",
+            "Automatic renewal/conversion": "Depends on lease",
+            "Tenant notice period": "2-3 months",
+            "Landlord notice period": "3-6 months"
+          }
+        },
+        {
+          "title": "Flanders",
+          "true_items": [
+            "Subsequent increases regulated?",
+            "Automatic renewal/conversion",
+            "Max deposit capped?",
+            "Tenant termination for any reason",
+            "Landlord termination: personal use",
+            "Landlord termination: major renovations",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "false_items": [
+            "Exceptions to increase amount for renovations",
+            "Non-renewable leases available?",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "details": {
+            "Regulated how?": "Time limit",
+            "Minimum lease duration": "Open-ended, long-term min 9 years, fixed-term max 3 years",
+            "Open-ended leases available?": "Yes, from start",
+            "Tenant notice period": "3 months",
+            "Landlord notice period": "6 months"
+          }
+        },
+        {
+          "title": "Wallonia",
+          "true_items": [
+            "Subsequent increases regulated?",
+            "Exceptions to increase amount for renovations",
+            "Automatic renewal/conversion",
+            "Max deposit capped?",
+            "Tenant termination for any reason",
+            "Landlord termination: personal use",
+            "Landlord termination: major renovations",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "false_items": [
+            "Non-renewable leases available?",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "details": {
+            "Regulated how?": "Time limit, property value",
+            "Minimum lease duration": "Open-ended, long-term min 9 years, fixed-term max 3 years",
+            "Open-ended leases available?": "Yes, from start",
+            "Tenant notice period": "3 months",
+            "Landlord notice period": "3-6 months"
+          }
+        }
+      ]
+    },
+    "Mortgage Market": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [],
+          "false_items": [],
+          "details": {
+            "% of lending with variable interest rate": "7.8",
+            "Avg rate on new loans %": "3.59",
+            "Avg mortgage amount": "192355",
+            "Outstanding loans to disposable income ratio %": "90.3",
+            "Typical LTV ratio %": "71",
+            "Typical/avg maturity years": "20-25"
+          }
+        }
+      ]
+    },
+    "Construction Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Loan, grant for social/affordable housing",
+          "true_items": [
+            "Min units/sqm",
+            "Capped rent/price"
+          ],
+          "false_items": [
+            "Max size",
+            "Location",
+            "Income threshold",
+            "Energy/sustainability"
+          ],
+          "details": {
+            "Access": "Developers, non-profit housing providers",
+            "Calculation method: % of costs": "1.0",
+            "Calculation method: lump sum": "1.0",
+            "Max %": "Varies",
+            "Max sum": "Varies",
+            "Interest": "Varies"
+          }
+        }
+      ]
+    },
+    "Homebuying Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Public credit society loans (Wallonia)",
+          "true_items": [
+            "Income",
+            "No sale/transfer",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "individual, single parent or max 2 children, fire insurance",
+            "Max % covered": "Varies",
+            "Capped at": "400000",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "Varies"
+          }
+        },
+        {
+          "title": "Large/intergenerational family public loans ",
+          "true_items": [
+            "Income",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "No sale/transfer"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "min 2 children, fire, life insurance",
+            "Max % covered": "1",
+            "Capped at": "461100",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "2.65 to 3.85%"
+          }
+        },
+        {
+          "title": "Young large family public loans",
+          "true_items": [
+            "Age below threshold",
+            "Income",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "No sale/transfer"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "min 2 children, fire, life insurance",
+            "Capped at": "60000",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "0"
+          }
+        },
+        {
+          "title": "Social loans (Brussels)",
+          "true_items": [
+            "Income",
+            "No sale/transfer",
+            "Main/only residence"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Other"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Max % covered": "1",
+            "Capped at": "577500",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "0 to 5%"
+          }
+        },
+        {
+          "title": "Public loans (Flanders)",
+          "true_items": [
+            "Income",
+            "No sale/transfer",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "insurance",
+            "Max % covered": "1",
+            "Capped at": "varies",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "2 to 5%"
+          }
+        },
+        {
+          "title": "Mortgage payment insurance ",
+          "true_items": [
+            "Income (Partly)",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "No sale/transfer",
+            "Main/only residence"
+          ],
+          "details": {
+            "Access": "Homebuyers",
+            "Other requirements": "employed, mortgage min",
+            "Capped at": "€600/month"
+          }
+        }
+      ]
+    },
+    "Social Housing": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Income/assets",
+            "Residence",
+            "Other",
+            "Priority groups/points",
+            "Eligibility reassessed?"
+          ],
+          "false_items": [
+            "EEA/EU citizenship",
+            "No legal/lease precedents",
+            "No other supports",
+            "Benefits/ proven need"
+          ],
+          "details": {
+            "Stock %": "0.042",
+            "Management": "Municipalities, non-profit housing providers, private landlords",
+            "If changed at reassessment": "rent raise, termination"
+          }
+        }
+      ]
+    }
+  },
+  "General Housing System": {
+    "House Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 97.94,
+        "2020": 115.24,
+        "2025": 143.08
+      }
+    },
+    "Rent Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 100,
+        "2020": 106.97,
+        "2024": 125.59
+      }
+    },
+    "Housing Stock": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 5489000
+      }
+    },
+    "Population": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 11817096
+      }
+    },
+    "Households": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 5201000
+      }
+    },
+    "Public Spending": {
+      "type": "bar_chart",
+      "content": {
+        "housing development": 0.1,
+        "housing as social protection": 0.3,
+        "rent subsidies/housing allowances": 0.04,
+        "social housing": 0.01,
+        "homebuying subsidies": "N/A",
+        "renovation subsidies": 0.01
+      }
+    },
+    "Short-term Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Short-term letting regulated?",
+            "Permit or licence",
+            "Mandatory registration",
+            "Consent from condo (Partly)",
+            "Appropriate zoning",
+            "Unit caps or quotas (Partly)",
+            "Rental time limits (Partly)",
+            "Mandatory registration as business (Partly)",
+            "Vacancy fines (Partly)",
+            "Incentives to let vacant housing (Partly)"
+          ],
+          "false_items": [
+            "Vacancy tax or tax surcharge"
+          ],
+          "details": {}
+        }
+      ]
+    }
+  },
+  "Exclusion": {
+    "Homelessness": {
+      "type": "key_value",
+      "content": {
+        "Latest count": 13524,
+        "ETHOS covered": "1, 2, 3, 4, 5, 6",
+        "Method": "Count",
+        "Interval": "1 night, 1 week",
+        "Homelessness strategy?": "Yes, as part of broader strategy"
+      }
+    },
+    "Age of Leaving Home": {
+      "type": "horizontal_bar",
+      "content": {
+        "Total": 26.2,
+        "Male": 26.9,
+        "Female": 25.5
+      }
+    },
+    "Living with Parents": {
+      "type": "hero_stat",
+      "content": 30.7
+    }
+  }
+}

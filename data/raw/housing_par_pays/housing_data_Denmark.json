@@ -1,0 +1,422 @@
+{
+  "Affordability": {
+    "Housing Allowances": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Boligstotte",
+          "true_items": [
+            "Other (Partly)"
+          ],
+          "false_items": [
+            "Income-tested?",
+            "Private rental",
+            "Social housing",
+            "Other benefits",
+            "No benefits",
+            "Housing costs > threshold",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "income, people, sqm, costs"
+          }
+        },
+        {
+          "title": "Saerlig stotte",
+          "true_items": [
+            "Other benefits",
+            "Housing costs > threshold",
+            "Other (Partly)"
+          ],
+          "false_items": [
+            "Income-tested?",
+            "Private rental",
+            "Social housing",
+            "No benefits",
+            "Employed",
+            "Unemployed",
+            "Specific demo group"
+          ],
+          "details": {
+            "Access (tenancy type)": "All",
+            "Calculation based on?": "costs, income"
+          }
+        }
+      ]
+    },
+    "Tax Relief": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence",
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Homeowners, tenants",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "DKK 8,600/year/person (repairs); DKK 17,500/year/person (services)"
+          }
+        },
+        {
+          "title": "Discount/credit, exemption",
+          "true_items": [
+            "Main/only residence (Partly)",
+            "Long-term rent to natural person (Partly)",
+            "Demo group/location/event (Partly)"
+          ],
+          "false_items": [
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent"
+          ],
+          "details": {
+            "Tax targeted": "Property tax",
+            "Access": "Homeowners, landlords",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "Varies"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence"
+          ],
+          "false_items": [
+            "Income threshold",
+            "Long-term rent to natural person",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Mortgage interest",
+            "Access": "Homeowners",
+            "Mortgage": "1.0",
+            "Reduction/ amount": "1"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Main/only residence",
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Landlords",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "25-35% of rental income for 3 years, then varies"
+          }
+        },
+        {
+          "title": "Deduction",
+          "true_items": [
+            "Main/only residence",
+            "Long-term rent to natural person"
+          ],
+          "false_items": [
+            "Income threshold",
+            "New build",
+            "Energy/ sustainability renov",
+            "Min residence period",
+            "Capped rent",
+            "Demo group/location/event"
+          ],
+          "details": {
+            "Tax targeted": "Income tax",
+            "Access": "Landlords (rent-a-room)",
+            "Mortgage": "0.0",
+            "Reduction/ amount": "1.33% of value or 2/3 yearly rent"
+          }
+        }
+      ]
+    },
+    "Rent Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Only in some areas",
+          "true_items": [
+            "Subsequent increases regulated?",
+            "Exceptions to increase amount for renovations",
+            "Non-renewable leases available?",
+            "Max deposit capped?",
+            "Landlord termination: personal use",
+            "Landlord termination: serious breach of contract (damages, arrears, etc)"
+          ],
+          "false_items": [
+            "Automatic renewal/conversion",
+            "Landlord termination: major renovations",
+            "Can either party terminate for other reason with compensation?"
+          ],
+          "details": {
+            "Regulated how?": "Time limit, % limit",
+            "Minimum lease duration": "Open-ended or fixed-term non renewable",
+            "Open-ended leases available?": "Yes, from start",
+            "Tenant termination for any reason": "Only long-term",
+            "Tenant notice period": "1-3 months",
+            "Landlord notice period": "3 months-1 year"
+          }
+        }
+      ]
+    },
+    "Mortgage Market": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [],
+          "false_items": [],
+          "details": {
+            "% of lending with variable interest rate": "38.7",
+            "Avg rate on new loans %": "4.55",
+            "Avg mortgage amount": "177459",
+            "Outstanding loans to disposable income ratio %": "155.3",
+            "Typical LTV ratio %": "80",
+            "Typical/avg maturity years": "30"
+          }
+        }
+      ]
+    },
+    "Construction Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "Loans for social/affordable housing",
+          "true_items": [
+            "Capped rent/price",
+            "Energy/sustainability (Partly)"
+          ],
+          "false_items": [
+            "Max size",
+            "Location",
+            "Income threshold",
+            "Min units/sqm"
+          ],
+          "details": {
+            "Access": "Non-profit housing providers",
+            "Calculation method: % of costs": "1.0",
+            "Calculation method: lump sum": "0.0",
+            "Max %": "0.12",
+            "Interest": "0"
+          }
+        }
+      ]
+    },
+    "Homebuying Subsidies": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "State guarantee scheme",
+          "true_items": [
+            "No sale/transfer",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income"
+          ],
+          "details": {
+            "Access": "Homebuyers, non-profit housing providers",
+            "Other requirements": "location, sqm",
+            "Max % covered": "0.9",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "0.01"
+          }
+        },
+        {
+          "title": "Social housing land purchase loans",
+          "true_items": [
+            "No sale/transfer",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income"
+          ],
+          "details": {
+            "Access": "Non-profit housing providers",
+            "Other requirements": "social housing",
+            "Max % covered": "Varies",
+            "Capped at": "Varies",
+            "Fixed/variable interest/fee": "Fixed or variable",
+            "Interest/fee rate": "Varies"
+          }
+        },
+        {
+          "title": "Social housing establishment subsidies",
+          "true_items": [
+            "No sale/transfer",
+            "Main/only residence",
+            "Other"
+          ],
+          "false_items": [
+            "Age below threshold",
+            "Income"
+          ],
+          "details": {
+            "Access": "Non-profit housing providers",
+            "Other requirements": "social housing",
+            "Max % covered": "20% grant, loan varies",
+            "Fixed/variable interest/fee": "Fixed",
+            "Interest/fee rate": "0"
+          }
+        }
+      ]
+    },
+    "Social Housing": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "EEA/EU citizenship (Partly)",
+            "No legal/lease precedents (Partly)",
+            "No other supports (Partly)",
+            "Benefits/ proven need (Partly)",
+            "Other (Partly)",
+            "Priority groups/points (Partly)"
+          ],
+          "false_items": [
+            "Income/assets",
+            "Residence",
+            "Eligibility reassessed?"
+          ],
+          "details": {
+            "Stock %": "0.213",
+            "Management": "Municipalities, non-profit housing providers, private landlords"
+          }
+        }
+      ]
+    }
+  },
+  "General Housing System": {
+    "House Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 94.51,
+        "2020": 118.28,
+        "2025": 148.65
+      }
+    },
+    "Rent Prices Trend": {
+      "type": "time_series",
+      "content": {
+        "2015": 100,
+        "2020": 106.1,
+        "2024": 115
+      }
+    },
+    "Housing Completions": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 30045
+      }
+    },
+    "Housing Stock": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 2827000
+      }
+    },
+    "Population": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 5961249
+      }
+    },
+    "Households": {
+      "type": "stat",
+      "content": {
+        "Latest Value": 3111400
+      }
+    },
+    "Public Spending": {
+      "type": "bar_chart",
+      "content": {
+        "housing development": 0.2,
+        "housing as social protection": 0.6,
+        "rent subsidies/housing allowances": 0.72,
+        "social housing": 0.03,
+        "homebuying subsidies": "N/A",
+        "renovation subsidies": 0.03
+      }
+    },
+    "Short-term Regulations": {
+      "type": "policy",
+      "content": [
+        {
+          "title": "General Rules",
+          "true_items": [
+            "Short-term letting regulated?",
+            "Permit or licence (Partly)",
+            "Mandatory registration",
+            "Consent from condo",
+            "Appropriate zoning",
+            "Unit caps or quotas (Partly)",
+            "Rental time limits"
+          ],
+          "false_items": [
+            "Mandatory registration as business",
+            "Vacancy tax or tax surcharge",
+            "Vacancy fines",
+            "Incentives to let vacant housing"
+          ],
+          "details": {}
+        }
+      ]
+    }
+  },
+  "Exclusion": {
+    "Homelessness": {
+      "type": "key_value",
+      "content": {
+        "Latest count": 5989,
+        "ETHOS covered": "1, 2, 3, 4, 6",
+        "Method": "Survey",
+        "Interval": "1 week",
+        "Homelessness strategy?": "Yes, as part of broader strategy"
+      }
+    },
+    "Age of Leaving Home": {
+      "type": "horizontal_bar",
+      "content": {
+        "Total": 21.7,
+        "Male": 22.1,
+        "Female": 21.4
+      }
+    },
+    "Living with Parents": {
+      "type": "hero_stat",
+      "content": 22.9
+    }
+  }
+}
