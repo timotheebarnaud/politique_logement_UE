@@ -4,7 +4,7 @@
 
 ## Visualisations
 
-1. [Financement public, logement social, emprunts… dans l'Union européenne, des politiques du logement hétérogènes](https://www.datawrapper.de/_/xYYPo/?v=3) - Tableau de bord comparatif des 27 États membres sur 7 indicateurs de politique publique du logement
+1. [Logement en Europe : les 27 modèles de l'Union européenne à l'épreuve de l'Affordable Housing Act](https://www.datawrapper.de/_/xYYPo/?v=3) - Tableau de bord comparatif des 27 États membres sur 7 indicateurs de politique publique du logement
 2. [Logement en Europe : la double pression sur les ménages](https://public.flourish.studio/visualisation/28896207/) - Croisement entre surcharge financière du logement et retards de paiement (loyer ou prêt immobilier)
 3. [Avoir une température adéquate dans son logement, un défi pour de nombreux Européens](https://public.flourish.studio/visualisation/28924032/) - Cartographie de l'incapacité à maintenir une température adéquate dans le logement
 
